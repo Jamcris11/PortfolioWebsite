@@ -1,0 +1,14 @@
+img {
+    border-radius: 50%
+}
+
+
+.container-column {
+    display: flex;
+    justify-content: center;
+}
+
+
+.center-image {
+    align-self: center;
+}
