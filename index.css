@@ -78,4 +78,6 @@ img {
 #topbar-menu {
     border-bottom: solid rgb(194, 194, 194) 2px;
     margin-bottom: 50px;
+    position: fixed;
+    width: 100%
 }
