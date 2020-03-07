@@ -13,13 +13,22 @@ img {
 .container-row {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+}
+
+.container-row-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item {
+    padding: 2px;
+    font-size: 24px;
 }
 
 
 .container-col {
+    display: flex;
     flex-direction: column;
-    flex-basis: 0;
 }
 
 .container-col-icon {
@@ -41,4 +50,8 @@ img {
 
 .center-image {
     align-self: center;
+}
+
+.inactive {
+    display: none;
 }
