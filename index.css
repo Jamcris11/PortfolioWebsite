@@ -19,7 +19,7 @@ img {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(221, 221, 221);
 }
 
 .container-row-menu ul {
@@ -28,13 +28,18 @@ img {
     user-select: none;
 }
 
+.container-row-menu ul li {
+    padding: 10px 0px;
+}
+
 .menu-item {
     padding: 2px;
     font-size: 24px;
+    cursor: pointer;
 }
 
 .menu-item:hover {
-    background-color: rgb(189, 189, 189);
+    color: red;
 }
 
 
@@ -46,6 +51,7 @@ img {
 .container-col-icon {
     flex-grow: 0;
     padding: 2px 10px;
+    cursor: pointer;
 }
 
 .container-col-icon svg {
@@ -67,4 +73,9 @@ img {
 
 .inactive {
     display: none;
+}
+
+#topbar-menu {
+    border-bottom: solid rgb(194, 194, 194) 2px;
+    margin-bottom: 50px;
 }
