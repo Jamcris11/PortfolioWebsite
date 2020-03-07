@@ -1,5 +1,6 @@
 img {
-    border-radius: 50%
+    border-radius: 50%;
+    box-shadow: -5px 5px 5px darkgrey;
 }
 
 
@@ -16,8 +17,12 @@ img {
 }
 
 .container-col-icon {
-    flex-grow: 1;
+    flex-grow: 0;
     padding: 2px;
+}
+
+.container-col-icon svg {
+    height: 50px
 }
 
 .container-col-padding {
