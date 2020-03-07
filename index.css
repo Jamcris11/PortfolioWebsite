@@ -22,10 +22,6 @@ img {
     background-color: rgb(209, 209, 209);
 }
 
-.menu-active {
-    transition: height 2s;
-}
-
 .container-row-menu ul {
     margin: 0;
     list-style-type: square;
