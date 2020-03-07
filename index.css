@@ -20,6 +20,10 @@ img {
     flex-direction: column;
 }
 
+.container-row-menu ul {
+    list-style-type: square;
+}
+
 .menu-item {
     padding: 2px;
     font-size: 24px;

@@ -3,19 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Jamies site</title>
+	<title>Jamie Frost</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
 
 <body>
 	<div class="container-row">
 		<div class="container-col container-col-icon">
-			<svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px" height="24px"><path d="M 0 2 L 0 4 L 24 4 L 24 2 Z M 0 11 L 0 13 L 24 13 L 24 11 Z M 0 20 L 0 22 L 24 22 L 24 20 Z"/></svg>
+			<div id="topbar-menuicon" onclick="onMenuClick()">
+				<svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px" height="24px"><path d="M 0 2 L 0 4 L 24 4 L 24 2 Z M 0 11 L 0 13 L 24 13 L 24 11 Z M 0 20 L 0 22 L 24 22 L 24 20 Z"/></svg>
+			</div>
 		</div>
 		<div class="container-col container-col-padding"></div>
 	</div>
 	<div class="container-row">
-		<div class="container-row-menu inactive">
+		<div id="topbar-menu" class="container-row-menu">
 			<ul>
 				<li class="menu-item">About me</li>
 				<li class="menu-item">Portfolio</li>
@@ -50,5 +52,12 @@
 		<div class="container-col container-col-padding"></div>
 	</div>
 </body>
+
+<script>
+	function onMenuClick() {
+		var topbar_menu = document.getElementById("topbar-menu");
+		topbar_menu.classList.toggle("inactive");
+	}
+</script>
 
 </html>
