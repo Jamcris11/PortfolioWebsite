@@ -32,6 +32,10 @@ img {
     padding: 10px 0px;
 }
 
+.container-text {
+    font-size: 36px;
+}
+
 .menu-item {
     padding: 2px;
     font-size: 24px;
