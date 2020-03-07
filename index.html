@@ -8,6 +8,7 @@
 </head>
 
 <body>
+	<!--Topbar element-->
 	<div class="container-row">
 		<div class="container-col container-col-icon">
 			<div id="topbar-menuicon" onclick="onMenuClick()">
@@ -16,6 +17,9 @@
 		</div>
 		<div class="container-col container-col-padding"></div>
 	</div>
+
+
+	<!--Topbar-menu expanded-->
 	<div class="container-row">
 		<div id="topbar-menu" class="container-row-menu">
 			<ul>
@@ -24,6 +28,9 @@
 			</ul>
 		</div>
 	</div>
+
+
+	<!--Center screen image-->
 	<div class="container-row">
 		<div class="container-col container-col-padding"></div>
 		<div class="center-image">
@@ -31,6 +38,9 @@
 		</div>
 		<div class="container-col container-col-padding"></div>
 	</div>
+
+
+	<!--Center screen name-->
 	<div class="container-row">
 		<div class="container-col container-col-padding"></div>
 		<div class="container-col">
@@ -38,6 +48,8 @@
 		</div>
 		<div class="container-col container-col-padding"></div>
 	</div>
+
+	<!--Links to social media-->
 	<div class="container-row">
 		<div class="container-col container-col-padding"></div>
 		<div class="container-col container-col-icon">
@@ -54,6 +66,7 @@
 </body>
 
 <script>
+	// On Topbar Menu Click
 	function onMenuClick() {
 		var topbar_menu = document.getElementById("topbar-menu");
 		topbar_menu.classList.toggle("inactive");
