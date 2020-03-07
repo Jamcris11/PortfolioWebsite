@@ -19,7 +19,7 @@ img {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(247, 247, 247);
 }
 
 .container-row-menu ul {
