@@ -1,15 +1,10 @@
 
-.container-card {
-    margin: 5px;
-    border: solid black 1px;
+.portfolio-card {
+    padding: 10px;
+    border-bottom: darkgray solid 1px;
 }
 
-.container-card-title {
-    padding: 3px;
-    margin: 0;
-}
-
-.container-card-content {
-    padding: 3px;
-    margin: 0;
+.portfolio-card:hover {
+    color: red;
+    cursor: pointer;
 }
