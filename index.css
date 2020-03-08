@@ -12,7 +12,14 @@ img {
 
 .container-row {
     display: flex;
+}
+
+.container-row-child-row {
     flex-direction: row;
+}
+
+.container-row-child-col {
+    flex-direction: column;
 }
 
 .container-row-menu {
