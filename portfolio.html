@@ -5,9 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
 </head>
 <body>
     <div include-html="topbar.html"></div>
+
+    <div class="container-row container-row-child-col">
+        <div class="portfolio-card" onclick="window.location.href='https://github.com/Jamcris11/4Chan-ThreadGrabber'">
+            <h1>4Chan-ThreadGrabber</h1>
+            <p>
+                Downloads all of the file attachments on any given 4Chan or 4Channel thread to a specified
+                location that the user chooses.
+            </p>
+        </div>
+        <div class="portfolio-card">
+            <h1>MagicEightBall</h1>
+            <p>Just a simple C++ magic eight ball program I made when the internet was down.</p>
+        </div>
+        <div class="portfolio-card">
+            <h1>bulk-file-renamer</h1>
+            <p>(WIP) A simple program that (hopefully) will allow for complex bulk file renaming.</p>
+        </div>
+    </div>
 </body>
 
 <script src="scripts/include-html.js"></script>
