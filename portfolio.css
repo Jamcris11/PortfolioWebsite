@@ -1,0 +1,15 @@
+
+.container-card {
+    margin: 5px;
+    border: solid black 1px;
+}
+
+.container-card-title {
+    padding: 3px;
+    margin: 0;
+}
+
+.container-card-content {
+    padding: 3px;
+    margin: 0;
+}
