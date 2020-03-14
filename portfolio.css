@@ -2,6 +2,7 @@
 .portfolio-card {
     padding: 10px;
     border-bottom: darkgray solid 1px;
+    text-align: center;
 }
 
 .portfolio-card:hover {
